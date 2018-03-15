@@ -1,0 +1,221 @@
+/*3周年*/
+
+img, div,body ,ul,li,h1,h2,p{margin: 0; padding: 0;} html{overflow-x: hidden;}
+ul,li{ list-style: none;}
+.wrap{ width: 1234px; margin: 0 auto; overflow: hidden;}
+
+body{ font-family: "microsoft yahei";}
+.banner,.libao{ font-size: 0;}
+.banner img{max-width: 100%; display: block; font-size: 0;}
+.banner .banner2{display: none;}
+.logo{ width: 1234px; position: absolute;  top: 0; left: 50%; margin-left: -617px;}
+.logo a{ border: 0;}
+.logo img{ margin-left: 80px; font-size: 0;}
+.libao img{ display: block; max-width: 100%; font-size: 0;}
+
+.bgcolo{ background-color: #de194f; height: 645px;}
+.bgcolo1{ background-color: #de194f; height: 475px;}
+.newregist{ width: 550px; text-align: center; margin-left: 95px; float: left;}
+.btn-regist{ display: block; width: 297px; height: 53px; margin: 15px auto; border-radius: 26px;   color: #fff; text-align: center; font-size: 26px; text-decoration: none; font-weight: bold; line-height: 53px;
+	background: -webkit-linear-gradient(left, #e0ce03,#06e6ca);
+	background: -o-linear-gradient(left, #e0ce03,#06e6ca);
+	background: -moz-linear-gradient(left, #e0ce03,#06e6ca);
+}
+
+.hongbaoinfo{ float: right; margin-top: 75px; margin-right: 20px;}
+.hongbaoinfo li{ background: #f0bdcb; position: relative; height: 50px; line-height: 50px; border-radius: 25px; margin-bottom: 55px; font-size: 14px; font-family: "microsoft yahei" ; color: #333;  padding-left: 15px; padding-right: 20px;}
+.hongbaoinfo li b{ font-size: 12px; color: #da280f; background: #ffcc00; border-radius: 50%; padding: 2px;}
+.hongbaoinfo li span{ color: #de194f; font-family: "microsoft yahei"; font-size: 16px; margin-left: 75px;}
+.hongbaoinfo li span i{ font-size: 30px; font-style: normal; line-height: 43px;}
+.hongbaoinfo li img{ position: absolute; bottom: 0;}
+
+.cfffa84f{ background: #ffa84f; padding-bottom: 50px;}
+/*抽奖*/
+
+.draw{ margin-top: 80px; margin-left: 60px; position: relative; width: 593px; margin-right: 87px; float: left; height: 598px;}
+
+.drawimg{ width: 593px; height: 598px; position: relative; background: url(../img/bgcj1.png) no-repeat; background-size: cover;}
+.bgbottom{  position: absolute;  bottom: -105px; left: 121px;}/*6-12*/
+.bgright{  position: absolute;  right: -87px; top: 202px;}
+
+#lottery{width:570px;height:510px;  position: absolute; z-index: 22; top: 138px; left: 45px;}
+#lottery table{}
+#lottery table td{position:relative;width:160px;height:130px; border: 4px solid #511b6f; text-align:center;color:#333; background: none; overflow: hidden;}
+#lottery table td img{display:block;width:160px;height:130px;}
+#lottery table td a{width:160px;height:130px;  display:block;text-decoration:none;background:url(../img/lottery1.jpg) no-repeat center center; background-size: contain;
+transition: all 1s;
+-moz-transition: all 1s; /* Firefox 4 */
+-webkit-transition: all 1s; /* Safari 和 Chrome */
+-o-transition: all 1s; /* Opera */
+}
+#lottery table td a:hover{background:url(../img/lottery2.jpg)  no-repeat center center; background-size: contain; 
+transform:scale(1.2,1.2);
+-moz-transition: scale(1.2,1.2); /* Firefox 4 */
+-webkit-transition: scale(1.2,1.2); /* Safari 和 Chrome */
+-o-transition: scale(1.2,1.2); /* Opera */}
+#lottery table td.active .mask{display:block;}
+.mask{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background: url(../img/bg.png);
+    display:none;
+}
+
+
+.drawinfo{ width: 417px; float: left; margin-top: 165px;}
+.drawinfo .notice{ font-size: 16px; height: 55px; line-height: 55px; width: 395px; margin: 0 auto; text-align: center; font-family: "microsoft yahei"; color: #ffb04f; background: #f6384d; border-radius: 5px;}
+.drawnum{ height: 118px; margin-top: 3px; background: url(../img/text2.png) no-repeat; position: relative; line-height: 118px; padding-left: 70px; font-size: 20px; font-family: "microsoft yahei"; color: #9c1a29;}
+.drawnum a{ color:#008af4;}
+.drawnum img{ position: absolute; right: -42px; top: 55px;}
+
+
+/*选项卡*/
+.listname{ position: relative;}
+.content{ width:337px; height: 330px; background: url(../img/text4.png) no-repeat;  margin-top: 3px; padding:24px 40px 20px 40px;  }
+.listname .line{ position: absolute; bottom: -67px; left: 209px;}
+.tab-nav{ height:40px; line-height:40px; display:block; text-align: center;   }
+.tab-nav li{float:left; font-size:20px; width: 158px; color:#f6384d; list-style-type:none; height:40px;line-height:40px;  
+   text-align:center; cursor:pointer;   padding:0 4px;  }
+.tab-nav li:hover{color:#f6384d; font-weight:500; height:40px; background-color:#db3746; cursor:pointer; overflow:hidden; border: 0; border-bottom:none; z-index:100; }
+.tab-nav li.tab_2_2{ color:#fff; font-weight:500; height:40px;  cursor:pointer; overflow:hidden; border: 0;  z-index:100;}
+
+
+#number02_t_1{ color: #fff; background-color:#db3746; margin-right: 3px;}
+#number02_t_2{color:#f6384d; background-color:#952239;}
+
+
+.content .detail h2{font-family: "microsoft yahei"; font-size: 16px; line-height: 30px; background-color:#db3746; color: #fdb765;}
+.content .detail h2 span{ display: inline-block; width: 160px; text-align: center;}
+
+#number02_c_1{ background-color:#db3746;}
+#number02_c_2{ background-color:#952239;}
+#number02_c_2 h2{ background-color:#952239;}
+
+.list_lh{ height:200px; overflow:hidden; background: #db3746;}
+.list_lh li{ border-bottom: 1px solid #952239; margin: 0 10px;}
+.list_lh li span{ height:38px; line-height:38px; color: #fff; display: inline-block; width: 155px; text-align: center;}
+
+.list_2h{ height:200px; overflow:hidden; background: #952239;}
+.list_2h li{ border-bottom: 1px solid #952239; margin: 0 10px;}
+.list_2h li span{ height:38px; line-height:38px; color: #fff; display: inline-block; width: 155px; text-align: center;}
+
+
+.rules{ width: 968px; height: 200px; margin: 67px auto; background: #f6384d;  border-radius: 20px; padding: 25px 50px;}
+.rules h2{ color: #fff; font-size: 20px; text-align: center; font-weight: normal; margin-bottom: 20px;}
+.rules p{ color: #fff; line-height: 28px; font-size: 16px; font-family: "microsoft yahei";}
+
+.yaoqing{ margin-top: 76px; margin-left: 50px; float: left;}
+
+.recommend{ float: left; margin-top: 80px; margin-left: 97px; width: 690px;}
+.recommend img{ margin-bottom: 30px;}
+.recommend p{ color: #fff; font-size: 16px; line-height: 30px; font-family: "microsoft yahei";}
+
+
+
+@media only screen and (max-width: 320px) {
+	.logo{ display: none;}
+	.banner .banner1{display: none;}
+	.banner .banner2{display: block;}
+	.wrap{ width: 100%;}
+	.newregist{ width: 50%; margin: 20px auto; float: none;}
+	.newregist img{ max-width: 100%;}
+	.newimg{ display: none;}
+	.btn-regist{ width: 100%; font-size: 16px; height: 40px; line-height: 40px;}
+	.bgcolo{ height: auto; padding-bottom: 10px;}
+	.hongbaoinfo{ width: 90%; margin: 0 auto; float: none;}
+	.hongbaoinfo img{ width: 24px;}
+	.hongbaoinfo li{ height: 40px; line-height: 30px; margin-bottom: 10px; font-size: 12px;}
+	.hongbaoinfo li span{ margin-left: 30px;}
+	.hongbaoinfo li span i{ font-size: 14px;}
+	
+	.draw{ margin-top: 15px; width: 89%; margin: 0 auto; float: none; height: auto;}
+	.draw .bgimg{ width: 288px; }
+	.bgbottom,.bgright{ display: none;}
+	
+	
+	
+	
+	#lottery{ width: 100%; left: 30px; top: 70px; height: 250px;}
+	#lottery table td{ width: 70px; height: 57px;}
+	#lottery table td img{ width: 70px; height: 57px;}
+	#lottery table td a{ width: 70px; height: 57px;}
+	.drawinfo{ margin-top: 0; float: none; width: 95%; margin: 0 auto;}
+	
+	.drawinfo .notice{ height: 40px; line-height: 40px; font-size: 14px; width: 95%; background: #f6384d;}
+	.drawnum{ background: #f6384d; width: 95%; margin: 3px auto; color: #fff; font-size: 14px; text-align: center; padding: 0; border-radius: 5px; height: 50px; line-height: 50px;}
+	.drawnum img{ display: none;}
+	.drawimg{ width: 288px; height: 286px; background-size: cover;}
+	
+	.listname{ background: #f6384d; width: 95%; margin: 0 auto;}
+	.listname .line{ display: none;}
+	.content{background: #f6384d; width: 92%; padding: 10px;}
+	.tab-nav li{ font-size: 14px; width: 45%;}
+	
+	.content .detail h2 span{ width: 48%;}
+	
+	.content .detail h2{ font-size: 14px;}
+	.list_lh li span{width: 48%;}
+	.list_2h li span{width: 48%;}
+	.rules{ width: 90%; height: auto;  padding: 10px; margin: 15px auto;}
+	.rules h2{ margin-bottom: 10px;}
+	.rules p{ font-size: 12px}
+	
+	.yaoqing{ display: none;}
+	.bgcolo1{ height: auto;}
+	.recommend{ margin: 10px auto; width: 80%; float: none;}
+	.recommend img{ max-width: 100%; margin-top: 20px;}
+	.recommend p{ font-size: 14px;}
+	.mask{ display:none; background-size: contain;}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 640px){
+	.logo{ display: none;}
+	.banner .banner1{display: none;}
+	.banner .banner2{display: block;}
+	.wrap{ width: 100%;}
+	.newregist{ width: 80%; margin:20px auto; float: none;}
+	.newregist img{ max-width: 100%;}
+	.newimg{ display: none;}
+	.bgcolo{ height: auto; padding-bottom: 10px;}
+	.hongbaoinfo{ width: 80%; margin: 0 auto; float: none;}
+	.hongbaoinfo img{ width: 24px;}
+	.hongbaoinfo li{ height: 40px; line-height: 30px; margin-bottom: 10px;}
+	.hongbaoinfo li span{ margin-left: 30px;}
+	.hongbaoinfo li span i{ font-size: 20px;}
+	
+	.draw{ width: 89%; margin: 20px auto; float: none; height: 344px;}
+	.draw .bgimg{ width: 341px; }
+	.bgbottom,.bgright{ display: none;}
+	
+	#lottery{ width: 80%; left: 26px; top: 74px; height: 244px;}
+	#lottery table td{ width: 80px; height: 65px;}
+	#lottery table td img{ width: 80px; height: 65px;}
+	#lottery table td a{ width: 80px; height: 65px;}
+	.drawinfo{ margin-top: 0; float: none; width: 95%; margin: 0 auto;}
+	
+	.drawinfo .notice{ height: 40px; line-height: 40px; font-size: 14px; width: 95%; background: #f6384d;}
+	.drawnum{ background: #f6384d; width: 95%; margin: 3px auto; color: #fff; font-size: 14px; text-align: center; padding: 0; border-radius: 5px; height: 45px; line-height: 45px;}
+	.drawnum img{ display: none;}
+	.drawimg{ width: 315px; height: 318px; margin: 0 auto; background-size: contain;}
+	.listname{ background: #f6384d; width: 95%; margin: 0 auto; border-radius: 5px;}
+	.listname .line{ display: none;}
+	.content{ width: 92%; padding: 10px; }
+	.tab-nav li{ font-size: 14px; width: 46%;}
+	
+	.content .detail h2 span{ width: 48%;}
+	.list_lh li span{width: 48%;}
+	.list_2h li span{width: 48%;}
+	.rules{ width: 90%; height: auto;  padding: 10px; margin: 15px auto;}
+	.rules h2{ margin-bottom: 10px;}
+	.rules p{ font-size: 12px}
+	
+	.yaoqing{ display: none;}
+	.bgcolo1{ height: auto;}
+	.recommend{ margin: 10px auto; width: 80%; float: none;}
+	.recommend img{ max-width: 100%; margin-top: 20px;}
+	.recommend p{ font-size: 14px;}
+	.mask{ display:none; background-size: contain;}
+}
